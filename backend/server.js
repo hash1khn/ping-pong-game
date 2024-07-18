@@ -173,12 +173,12 @@ function GameStarted(room){
                 clearInterval(interval)
             }
             if(room.players[1].score===10){
+                // console.log('
                 room.winner=2
                 rooms=rooms.filter(r=>r.id!==room.id)
                 io.to(room.id).emit('endGame',room)
                 clearInterval(interval)
             }
-
         io.to(room.id).emit('updateGame',room)
     },1000/60)
 }
