@@ -1,5 +1,5 @@
-## Ping Pong Game 
-This project is a real-time, multiplayer ping pong game built using Node.js, Express, Socket.IO, and vanilla JS. The game allows two players to connect, join a room, and compete against each other in a fun and interactive ping pong match.
+## Pong Game 
+This project is a real-time, multiplayer pong game built using Node.js, Express, Socket.IO, and vanilla JS. The game allows two players to connect, join a room, and compete against each other in a fun and interactive pong match.
 
 ### Features
 Real-time Gameplay: The game uses Socket.IO to facilitate real-time communication between the server and clients, ensuring smooth and responsive gameplay.
